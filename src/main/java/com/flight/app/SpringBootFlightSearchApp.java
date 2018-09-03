@@ -13,7 +13,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootFlightSearchApp {
 	private static final Logger logger = Logger.getLogger("SearchFlight");
 	public static void main(String[] args) {
-		//SpringApplication.run(SpringBootFlightSearchApp.class, args);
 		logger.info("Inside main method");
 		SpringApplication.run(SpringBootFlightSearchApp.class, args);
 	}
